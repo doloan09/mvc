@@ -1,0 +1,22 @@
+{
+    "name": "intern/lab1_mvc",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Nguyễn Gia Hào",
+            "email": "giahao9899@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper": "^6.0",
+        "vlucas/phpdotenv": "^5.4",
+        "ext-pdo": "*"
+    }
+}
